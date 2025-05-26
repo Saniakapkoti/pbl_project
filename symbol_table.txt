@@ -1,0 +1,6 @@
+a : int
+b : int
+c : int
+int d : int
+e : int
+i : int
