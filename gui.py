@@ -12,7 +12,7 @@ PHASE_FILES = {
 
 def run_icg():
     try:
-        with open("test.cpp", "w") as f:
+        with open("test.cpp", "w") as f:  #this is open function
             f.write(code_input.get("1.0", tk.END))
         subprocess.run(["python", "icg.py"], check=True)
         messagebox.showinfo("Success", "Compilation complete.")
