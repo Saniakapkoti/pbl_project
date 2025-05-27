@@ -4,6 +4,7 @@ temp_counter = 0
 label_counter = 0
 symbol_table = {}
 
+# THis is get_temp
 def get_temp():
     global temp_counter
     temp = f"t{temp_counter}"
