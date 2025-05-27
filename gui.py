@@ -3,6 +3,7 @@ from tkinter import ttk, messagebox, filedialog
 import subprocess
 import os
 
+# Setting Up Files
 PHASE_FILES = {
     "Tokens": "tokens.txt",
     "Symbol Table": "symbol_table.txt",
